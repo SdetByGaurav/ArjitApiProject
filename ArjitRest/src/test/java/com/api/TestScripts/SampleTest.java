@@ -7,6 +7,6 @@ public class SampleTest {
 	@Test
 	public void praticeSampleTest()
 	{
-		System.out.println("praticeSampleTest running");
+		System.out.println("pratinnceSampleTest running");
 	}
 }

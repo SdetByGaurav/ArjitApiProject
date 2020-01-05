@@ -17,5 +17,6 @@ public class FetchData {
 							("currencies.code");
 		
 		System.out.println(obj);
+		System.out.println("Hello");
 	}
 }
