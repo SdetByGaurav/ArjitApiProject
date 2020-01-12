@@ -7,5 +7,6 @@ public class DemoTest {
 	public void praticeDemoTest()
 	{
 		System.out.println("pratinnce Demo Test running");
+		System.out.println("Demo Pass");
 	}
 }
