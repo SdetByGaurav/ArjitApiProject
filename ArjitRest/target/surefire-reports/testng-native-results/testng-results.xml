@@ -1,46 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="3135" started-at="2019-12-28T06:54:36Z" finished-at="2019-12-28T06:54:39Z">
+  <suite name="Command line suite" duration-ms="27404" started-at="2020-01-05T08:28:06Z" finished-at="2020-01-05T08:28:33Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3135" started-at="2019-12-28T06:54:36Z" finished-at="2019-12-28T06:54:39Z">
-      <class name="com.api.TestScripts.PostRequestTest">
-        <test-method status="PASS" signature="configBaseContent()[pri:0, instance:com.api.TestScripts.PostRequestTest@6cd8737]" name="configBaseContent" is-config="true" duration-ms="715" started-at="2019-12-28T12:24:36Z" finished-at="2019-12-28T12:24:36Z">
+    <test name="Command line test" duration-ms="27404" started-at="2020-01-05T08:28:06Z" finished-at="2020-01-05T08:28:33Z">
+      <class name="com.api.TestScripts.FetchAllEmployeesTest">
+        <test-method status="PASS" signature="configBaseContent()[pri:0, instance:com.api.TestScripts.FetchAllEmployeesTest@6aaa5eb0]" name="configBaseContent" is-config="true" duration-ms="2443" started-at="2020-01-05T13:58:03Z" finished-at="2020-01-05T13:58:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBaseContent -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:com.api.TestScripts.PostRequestTest@6cd8737]" name="createPost" duration-ms="215" started-at="2019-12-28T12:24:39Z" finished-at="2019-12-28T12:24:39Z">
+        <test-method status="PASS" signature="getAllEmp()[pri:0, instance:com.api.TestScripts.FetchAllEmployeesTest@6aaa5eb0]" name="getAllEmp" duration-ms="11217" started-at="2020-01-05T13:58:06Z" finished-at="2020-01-05T13:58:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.api.TestScripts.PostRequestTest@6cd8737]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-28T12:24:39Z" finished-at="2019-12-28T12:24:39Z">
+        </test-method> <!-- getAllEmp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.api.TestScripts.FetchAllEmployeesTest@6aaa5eb0]" name="getResult" is-config="true" duration-ms="359" started-at="2020-01-05T13:58:17Z" finished-at="2020-01-05T13:58:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createPost status=SUCCESS method=PostRequestTest.createPost()[pri:0, instance:com.api.TestScripts.PostRequestTest@6cd8737] output={null}]]]>
+                <![CDATA[[TestResult name=getAllEmp status=SUCCESS method=FetchAllEmployeesTest.getAllEmp()[pri:0, instance:com.api.TestScripts.FetchAllEmployeesTest@6aaa5eb0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.api.TestScripts.PostRequestTest@6cd8737]" name="configAfterSuite" is-config="true" duration-ms="1616" started-at="2019-12-28T12:24:40Z" finished-at="2019-12-28T12:24:41Z">
+        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.api.TestScripts.FetchAllEmployeesTest@6aaa5eb0]" name="configAfterSuite" is-config="true" duration-ms="5619" started-at="2020-01-05T13:58:34Z" finished-at="2020-01-05T13:58:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterSuite -->
-      </class> <!-- com.api.TestScripts.PostRequestTest -->
-      <class name="com.api.TestScripts.GetRequestTest">
-        <test-method status="PASS" signature="fetchCountry()[pri:0, instance:com.api.TestScripts.GetRequestTest@6b2fad11]" name="fetchCountry" duration-ms="2776" started-at="2019-12-28T12:24:36Z" finished-at="2019-12-28T12:24:39Z">
+      </class> <!-- com.api.TestScripts.FetchAllEmployeesTest -->
+      <class name="com.api.TestScripts.DemoTest">
+        <test-method status="PASS" signature="praticeDemoTest()[pri:0, instance:com.api.TestScripts.DemoTest@42d3bd8b]" name="praticeDemoTest" duration-ms="3" started-at="2020-01-05T13:58:06Z" finished-at="2020-01-05T13:58:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fetchCountry -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.api.TestScripts.GetRequestTest@6b2fad11]" name="getResult" is-config="true" duration-ms="134" started-at="2019-12-28T12:24:39Z" finished-at="2019-12-28T12:24:39Z">
+        </test-method> <!-- praticeDemoTest -->
+      </class> <!-- com.api.TestScripts.DemoTest -->
+      <class name="com.api.TestScripts.PostRequestTest">
+        <test-method status="PASS" signature="createPost()[pri:0, instance:com.api.TestScripts.PostRequestTest@38082d64]" name="createPost" duration-ms="3913" started-at="2020-01-05T13:58:29Z" finished-at="2020-01-05T13:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPost -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.api.TestScripts.PostRequestTest@38082d64]" name="getResult" is-config="true" duration-ms="0" started-at="2020-01-05T13:58:33Z" finished-at="2020-01-05T13:58:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fetchCountry status=SUCCESS method=GetRequestTest.fetchCountry()[pri:0, instance:com.api.TestScripts.GetRequestTest@6b2fad11] output={null}]]]>
+                <![CDATA[[TestResult name=createPost status=SUCCESS method=PostRequestTest.createPost()[pri:0, instance:com.api.TestScripts.PostRequestTest@38082d64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.api.TestScripts.PostRequestTest -->
+      <class name="com.api.TestScripts.GetRequestTest">
+        <test-method status="PASS" signature="fetchCountry()[pri:0, instance:com.api.TestScripts.GetRequestTest@dfd3711]" name="fetchCountry" duration-ms="11901" started-at="2020-01-05T13:58:17Z" finished-at="2020-01-05T13:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchCountry -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.api.TestScripts.GetRequestTest@dfd3711]" name="getResult" is-config="true" duration-ms="0" started-at="2020-01-05T13:58:29Z" finished-at="2020-01-05T13:58:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fetchCountry status=SUCCESS method=GetRequestTest.fetchCountry()[pri:0, instance:com.api.TestScripts.GetRequestTest@dfd3711] output={null}]]]>
               </value>
             </param>
           </params>
@@ -48,6 +71,12 @@
           </reporter-output>
         </test-method> <!-- getResult -->
       </class> <!-- com.api.TestScripts.GetRequestTest -->
+      <class name="com.api.TestScripts.SampleTest">
+        <test-method status="PASS" signature="praticeSampleTest()[pri:0, instance:com.api.TestScripts.SampleTest@2ed94a8b]" name="praticeSampleTest" duration-ms="0" started-at="2020-01-05T13:58:33Z" finished-at="2020-01-05T13:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- praticeSampleTest -->
+      </class> <!-- com.api.TestScripts.SampleTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>

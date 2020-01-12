@@ -21,7 +21,7 @@ import java.util.Date;
 public class BaseClass {
 
 	public APIConfig config =  new APIConfig();
-	public ExtentHtmlReporter htmlReporter;
+	/*public ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
 	public static ExtentTest logger;
 	@BeforeSuite
@@ -78,5 +78,5 @@ public class BaseClass {
 	public void configAfterSuite()
 	{
 		extent.flush();
-	}
+	}*/
 }

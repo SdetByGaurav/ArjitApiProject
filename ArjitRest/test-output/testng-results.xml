@@ -1,36 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1798" started-at="2019-12-28T07:16:32Z" finished-at="2019-12-28T07:16:34Z">
+  <suite name="Suite" duration-ms="11332" started-at="2020-01-12T06:59:50Z" finished-at="2020-01-12T07:00:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1798" started-at="2019-12-28T07:16:32Z" finished-at="2019-12-28T07:16:34Z">
-      <class name="com.api.TestScripts.GetRequestTest">
-        <test-method status="PASS" signature="configBaseContent()[pri:0, instance:com.api.TestScripts.GetRequestTest@1ae369b7]" name="configBaseContent" is-config="true" duration-ms="580" started-at="2019-12-28T12:46:32Z" finished-at="2019-12-28T12:46:32Z">
+    <test name="Test" duration-ms="9176" started-at="2020-01-12T06:59:50Z" finished-at="2020-01-12T06:59:59Z">
+      <class name="com.api.TestScripts.FetchAllEmployeesTest">
+        <test-method status="PASS" signature="getAllEmp()[pri:0, instance:com.api.TestScripts.FetchAllEmployeesTest@61a52fbd]" name="getAllEmp" duration-ms="9140" started-at="2020-01-12T12:29:50Z" finished-at="2020-01-12T12:29:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configBaseContent -->
-        <test-method status="PASS" signature="fetchCountry()[pri:0, instance:com.api.TestScripts.GetRequestTest@1ae369b7]" name="fetchCountry" duration-ms="1776" started-at="2019-12-28T12:46:32Z" finished-at="2019-12-28T12:46:34Z">
+        </test-method> <!-- getAllEmp -->
+      </class> <!-- com.api.TestScripts.FetchAllEmployeesTest -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="1479" started-at="2020-01-12T06:59:59Z" finished-at="2020-01-12T07:00:01Z">
+      <class name="com.api.TestScripts.GetRequestTest">
+        <test-method status="PASS" signature="fetchCountry()[pri:0, instance:com.api.TestScripts.GetRequestTest@3f0ee7cb]" name="fetchCountry" duration-ms="1473" started-at="2020-01-12T12:29:59Z" finished-at="2020-01-12T12:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchCountry -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.api.TestScripts.GetRequestTest@1ae369b7]" name="getResult" is-config="true" duration-ms="10" started-at="2019-12-28T12:46:34Z" finished-at="2019-12-28T12:46:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=fetchCountry status=SUCCESS method=GetRequestTest.fetchCountry()[pri:0, instance:com.api.TestScripts.GetRequestTest@1ae369b7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.api.TestScripts.GetRequestTest@1ae369b7]" name="configAfterSuite" is-config="true" duration-ms="401" started-at="2019-12-28T12:46:34Z" finished-at="2019-12-28T12:46:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAfterSuite -->
       </class> <!-- com.api.TestScripts.GetRequestTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

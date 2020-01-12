@@ -5,9 +5,7 @@
     <classes>
       <class name="com.api.TestScripts.GetRequestTest">
         <methods>
-          <include name="configBaseContent"/>
           <include name="fetchCountry"/>
-          <include name="getResult"/>
         </methods>
       </class> <!-- com.api.TestScripts.GetRequestTest -->
     </classes>

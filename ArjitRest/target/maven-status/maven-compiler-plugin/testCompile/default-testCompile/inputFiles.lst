@@ -1,13 +1,15 @@
-E:\New Selenium\Framework\ArjitRest\src\test\java\com\api\genericLib\APIConfig.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\com\api\TestScripts\PostRequestTest.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\com\api\TestScripts\GetRequestTest.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\PraticeRest\CheckParameters.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\com\api\TestScripts\FetchAllEmployees.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\PraticeRest\Authentication.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\PraticeRest\PostRequest.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\PraticeRest\FetchData.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\ArjitRest\ArjitRest\AppTest.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\PraticeRest\FetchExactData.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\PraticeRest\DeleteRequest.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\PraticeRest\GetRequest.java
-E:\New Selenium\Framework\ArjitRest\src\test\java\com\api\genericLib\BaseClass.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\com\api\genericLib\APIConfig.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\PraticeRest\DeleteRequest.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\PraticeRest\FetchData.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\ArjitRest\ArjitRest\AppTest.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\com\api\TestScripts\SampleTest.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\PraticeRest\CheckParameters.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\com\api\genericLib\BaseClass.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\PraticeRest\FetchExactData.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\com\api\TestScripts\DemoTest.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\PraticeRest\GetRequest.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\com\api\TestScripts\GetRequestTest.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\com\api\TestScripts\PostRequestTest.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\PraticeRest\PostRequest.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\com\api\TestScripts\FetchAllEmployeesTest.java
+E:\ArjitApiLocalRepo\ArjitRest\src\test\java\PraticeRest\Authentication.java

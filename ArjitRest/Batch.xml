@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-       <class name="com.api.TestScripts.FetchAllEmployees"/> 
+       <class name="com.api.TestScripts.FetchAllEmployeesTest"/> 
  
      </classes>
   </test> <!-- Test -->
@@ -14,11 +14,5 @@
        
      </classes>
   </test> <!-- Test -->
-   <test name="Test2">
-    <classes>
-       
-       <class name="com.api.TestScripts.PostRequestTest"/>
-       
-     </classes>
-  </test> <!-- Test -->
+   
 </suite> <!-- Suite -->

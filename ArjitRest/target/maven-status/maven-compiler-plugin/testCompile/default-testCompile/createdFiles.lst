@@ -5,7 +5,6 @@ com\api\TestScripts\PostRequestTest.class
 PraticeRest\FetchData.class
 PraticeRest\GetRequest.class
 ArjitRest\ArjitRest\AppTest.class
-com\api\TestScripts\FetchAllEmployees.class
 PraticeRest\PostRequest.class
 PraticeRest\CheckParameters.class
 PraticeRest\FetchExactData.class
